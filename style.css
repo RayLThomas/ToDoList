@@ -1,0 +1,128 @@
+html {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #5d5d5d 61%, #4d5069);
+	margin: 0;
+	position: relative;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.mainNav{
+	height: 2em;
+}
+
+.mainNav ul {
+	margin: 0;
+	float:right;
+}
+
+.mainNav li {
+	text-decoration-line: none;
+	display:inline-block;
+	padding: .5em;
+}
+
+.mainNav li a {
+	color: #000;
+	text-decoration-line: none;
+}
+
+.userIcon {
+	border-radius:50%;
+}
+
+.mainHeader {
+	color: #FFF;
+	margin: 0px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.habitContainer {
+	margin: 0em;
+	padding: 0em;
+}
+
+.habitContainer li {
+	margin:.5em 4%;
+	padding:.3em 3%;
+	height: 2em;
+	border-radius: 1em;
+	background-color: #9fc8fc;
+}
+
+.habitName, .habitContainer li i {
+	display: inline-block;
+}
+
+.habitName {
+    width: 69%;
+	margin:.4em 0 0 .8em;
+}
+
+.habitContainer li i {
+	margin:.49em 0 0 0;
+	padding-right:.9em;
+	float:right;
+}
+
+.complete {
+	color: #31a031;
+}
+
+.remove {
+	color: #977063;
+}
+
+#addHabit {
+	color: #FFF;
+	font-weight: bold;
+	height: 5em;
+	width: 5em;
+	border-radius: 50%;
+	border: none;
+	margin: 0 auto;
+	display: block;
+	border: 2px solid #81bf79;
+    box-shadow: -1px -2px 10px #2f2f2f;
+    background-color: #228e4c;
+}
+
+.habitItem {
+	box-shadow: -2px 0px 55px -1px #313131;
+}
+
+.lightBox {
+	display: flex;
+	justify-content:space-around;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .4);
+	position: fixed;
+	visibility: hidden;
+}
+
+.show {
+	visibility: visible;
+}
+
+.container {
+	color: #3d3d3d;
+	background-color: #FFF;
+	align-self: center;
+	height: 80%;
+	width: 70%;
+	border-radius: .9em;
+	padding: 1em;
+}
+
+.displayToggle {
+	display: none;
+}
